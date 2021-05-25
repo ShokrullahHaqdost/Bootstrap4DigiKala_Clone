@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir.woff") format("woff");
+}
+
+body {
+  font-family: vazir;
+  direction: rtl !important;
+  background-color: #f5f5f5;
+}
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+}
+.logo {
+  height: 38px;
+  display: block;
+  text-align: right;
+  background: url("../imges/logo.svg") no-repeat 100%;
+  background-size: auto 100%;
+}
+
+.custom-input-group-text {
+  background-color: #ef5651;
+  border: 1px solid #ef5651;
+}
+
+.custom-input-group-text a i {
+  color: #fff;
+  vertical-align: -5px;
+  /* display: flex; */
+}
+.input_search {
+  background-color: #eceff1;
+  border: 1px solid #d5dadd;
+  font-size: 13px !important;
+}
+@media (max-width: 575px) {
+  .dropdown_custom {
+    text-align: right !important;
+  }
+}
+.dropdown_custom a {
+  cursor: pointer;
+  font-size: 14px !important;
+  color: #6f6f6f !important;
+}
+.dropdown-menu_custom {
+  top: 10px !important;
+  left: -40px !important;
+}
+.dropdown-menu_custom::before {
+  height: 40px;
+  background-color: #ef5651;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+}
+.dropdown-menu_custom::before,
+.dropdown-menu_custom::after {
+  position: absolute;
+  content: "";
+}
+.dropdown-menu_custom::after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 8px;
+  border-color: transparent transparent #ef5651;
+  bottom: 100%;
+  margin-bottom: 2px;
+  left: 70px;
+}
+.login_box a {
+  color: rgb(109, 197, 87) !important;
+  background-color: rgb(246, 196, 102);
+}
+.dropdown-item-custom :hover {
+  color: rgb(235, 226, 235) !important;
+  background-color: rgb(78, 213, 223);
+}
+.dropdown .register {
+  font-size: 12px;
+}
+.register a {
+  color: #008ec9 !important;
+  border-bottom: 1px dashed #008ec9;
+}
+.dropdown .profile_link {
+  font-size: 18px;
+  vertical-align: -5px;
+}
+.dropdown .dropdown-item_custom {
+  color: #ef5651;
+  font-size: 14px;
+}
+.dropdown button {
+  cursor: pointer;
+}
+
+.shopping_cart {
+  vertical-align: -7px;
+}
+/* end of header */
+
+/* start menu */
+.navbar_custom {
+  background-color: #616161;
+  padding: 0px 7px 0px 7px !important;
+}
+.nav_line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  z-index: 2;
+  background: #000;
+}
+.navbar-custom .nav-link {
+  font-size: 13px;
+}
+#custom-main-dropdown-menu {
+  width: 99%;
+  border-top: 0 !important;
+}
+.dropdown-menu_custom1 {
+  border-radius: 0;
+}
+#custom-main-dropdown-menu .top_link {
+  font-size: 14px;
+}
+#custom-main-dropdown-menu .top_link i {
+  vertical-align: -6px;
+  font-size: 19px;
+  padding: 5px;
+  transition: padding-right 0.1s;
+}
+#custom-main-dropdown-menu .top_link:hover {
+  display: inline-block;
+  padding: 5px;
+  transition: padding-right 0.1s;
+}
+
+#custom-main-dropdown-menu .custom-list-group a {
+  font-size: 12px;
+  color: #616161;
+  padding-right: 30px;
+}
+#custom-main-dropdown-menu .custom-list-group a:hover {
+  font-weight: bolder;
+}
+#custom-main-dropdown-menu .custom-list-group li {
+  padding: 2px;
+}
+
+#custom-main-dropdown-menu img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.navbar_custom .nav-link {
+  height: 35px;
+}
+.navbar_custom .nav-link:hover {
+  box-shadow: 0 0.125rem 0.25rem rgba(12, 12, 12, 0.2) !important ;
+  transition: box-shadow 0.3s;
+  border-bottom: 3px solid #ef5651;
+}
+.special_sale {
+  background-color: #616161;
+  color: #fff !important;
+  font-size: 11px;
+  line-height: 25px;
+  padding: 2px 10px 2px 10px;
+}
+/* start top banner  */
+.top_banner {
+  height: 76px;
+  background-color: aquamarine;
+}
+.top_banner div {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background-image: url(../imges/coundown03.jpg);
+  margin: 0 auto;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.next {
+  transition: 0.5s;
+}
+.next:hover {
+  margin-left: -5px;
+  transition: 0.5s;
+}
+.prev {
+  transition: 0.5s;
+}
+.prev:hover {
+  margin-right: -5px;
+  transition: 0.5s;
+}
+.serv p {
+  padding-top: 5px;
+  color: #606060;
+  font-size: 15px;
+}
+/* start slider plagin */
+.panel-title-custom {
+  background-color: #fff;
+}
+.card-header-custom {
+  border: 1px solid #606060;
+}
+.card-header-custom p {
+  font-size: 18px;
+  padding-top: 5px;
+  border-bottom: 1px solid rgb(170, 16, 16) !important;
+  display: inline;
+  font-weight: bold;
+}
+.panel-custom {
+  border-bottom: 0 !important;
+  margin-bottom: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+.card-body-custom {
+  padding: 0;
+}
+.slider .card {
+  border: 0 !important;
+}
+.slider .card-body {
+  padding: 10px;
+}
+.slider .item:hover {
+  box-shadow: 0 1rem 3rem #ef5651 !important;
+  border: 1px solid #dfdf34;
+  border-radius: 2px;
+  transition: 0.1s;
+}
+.panel-footer-custom {
+  border-top: 0px;
+  padding: 1px 10px !important;
+  background-color: transparent;
+}
+.panel-footer-custom h4 {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #616161;
+}
+.panel-footer-custom p {
+  color: red;
+  text-align: center;
+  font-size: 15px;
+}
+.owl-dots {
+  display: none;
+}
+
+.owl-nav {
+  position: relative;
+  top: -10px;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: -150px;
+  right: -10px;
+}
+.owl-nav .owl-next,
+.owl-nav .owl-prev {
+  position: absolute;
+  top: -120px;
+  left: -10px;
+  background: hsla(0, 0%, 100%, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+  width: 69px;
+  height: 69px;
+  margin-top: -35px;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #000;
+  font-size: 35px;
+  background: rgba(158, 172, 181, 0.95);
+  border-radius: 100%;
+}
+.owl-nav .owl-prev:before {
+  font-family: FontAwesome;
+  position: relative;
+  top: 30px;
+  color: #fff;
+  padding: 3px;
+}
+.owl-nav .owl-next:before {
+  font-family: FontAwesome;
+  position: relative;
+  top: 30px;
+  color: #fff;
+  padding: 3px;
+}
+.owl-nav button {
+  background: #fff !important;
+  outline: none !important;
+  border: 0 !important;
+  opacity: 0.8 !important;
+}
+.owl-nav button:hover {
+  color: black !important;
+}

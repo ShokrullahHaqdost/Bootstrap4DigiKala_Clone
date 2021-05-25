@@ -1,0 +1,120 @@
+
+.c-discount__aside {
+    position: relative;
+    background-color: #f1f7fb;
+    height: 60px
+}
+
+.c-discount__aside, .c-discount__aside * {
+    box-sizing: border-box
+}
+
+.c-discount__aside-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #f1f7fb;
+    height: 100%
+}
+
+.c-discount__aside-ul {
+    width: 100%;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: content-box
+}
+
+.c-discount__aside-li, .c-discount__aside-ul {
+    position: relative;
+    height: 100%;
+    transition-property: transform
+}
+
+.c-discount__aside-li {
+    padding: 10px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: auto;
+    white-space: nowrap;
+    letter-spacing: -.5px;
+    font-size: 13px;
+    font-size: .929rem;
+    line-height: 1.692
+}
+
+.c-discount__aside-a {
+    padding: 10px 25px;
+    display: block;
+    height: 100%;
+    border-radius: 5px
+}
+
+.c-discount__aside-a--button {
+    display: none
+}
+
+.c-discount__aside-a.is-active {
+    background-color: #ef5662;
+    color: #fff;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .2)
+}
+
+.c-discount__aside-lavalamp {
+    display: none
+}
+
+.c-discount__aside-btn-next, .c-discount__aside-btn-prev {
+    position: absolute;
+    width: 43px;
+    height: 100%;
+    top: 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3
+}
+
+.c-discount__aside-btn-next.swiper-button-disabled, .c-discount__aside-btn-prev.swiper-button-disabled {
+    display: none
+}
+
+.c-discount__aside-btn-next:before, .c-discount__aside-btn-prev:before {
+    font-size: 18px;
+    vertical-align: top;
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 13px;
+    z-index: 2
+}
+
+.c-discount__aside-btn-next:after, .c-discount__aside-btn-prev:after {
+    content: "";
+    background-color: hsla(0, 0%, 100%, .7);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    display: block
+}
+
+.c-discount__aside-btn-next {
+    left: 0
+}
+
+
+
+
+
+.c-discount__aside-btn-prev {
+    right: 0
+}
+
+
+
+.c-discount__aside-btn-prev:after {
+    right: -57px
+}
